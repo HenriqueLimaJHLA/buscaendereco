@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif, nonito;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.marcador {
+	height: 30px;
+	width: 30px;
+}
+
+.text {
+	border: 1px solid black;
+	outline: none;
+	border-radius: 2px;
+	padding: 5px 35px;
+	text-align: center;
+	position: relative;
+	top: 5vh;
+}
+
+.text:focus {
+	transition: 2s;
+	border: 1px  solid blueviolet;
+}
+
+.btn {
+	position: relative;
+	top: 7vh;
+	left: 10px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.lupa {
+	height: 35px;
+	width: 35px;
+}
+
+p {
+	font-style: italic;
+	position: relative;
+	top: 40vh;	
+}
